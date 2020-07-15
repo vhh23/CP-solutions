@@ -7,6 +7,11 @@ public class sortColors {
 
     public static void main(String[] args) {
 
+
+       String h = "Hello World!";
+        System.out.println(h.substring(6,12)+h.substring(12,6));
+
+
         //String s1 = "foo(bar(baz))blim";
         //System.out.println(check(s1));
         //int[] s1 = new int[]{1,1,3,2,5};
@@ -48,16 +53,6 @@ public class sortColors {
         groupingDishes(dishes);*/
 
 
-        String[] sts =
-                {"cat",
-                "dog",
-                "doggy"};
-
-        String[] pts=
-                {"a",
-                "b",
-                "b"};
-        System.out.println(areFollowingPatterns(sts,pts));
 
     }
 
